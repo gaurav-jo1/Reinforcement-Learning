@@ -1,0 +1,20 @@
+# Python environments and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Frontend dependencies and build output
+node_modules/
+/frontend/dist/
+/frontend/dist-ssr/
+
+# Local environment files
+.env
+.env.*
+!.env.example
+
+# Local market data and raw captures
+/backend/master_data/
+/backend/scraped_data/
